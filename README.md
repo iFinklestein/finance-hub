@@ -1,20 +1,25 @@
-# Base44 App
+# Finance Hub
 
+Draíocht Studios app for tracking accounts, transactions, budgets, and subscriptions.
 
-This app was created automatically by Base44.
-It's a Vite+React app that communicates with the Base44 API.
+## Tech Stack
+- Vite + React
+- Tailwind CSS + shadcn/ui
+- ESLint (config included)
 
-## Running the app
+## Features (MVP)
+- Account list with balances
+- Transactions view with basic filtering
+- Budgets page (categories/limits/progress)
+- Subscriptions tracker with cost per month and next bill date
+- Demo “Connect with Plaid” flow (mocked for now; no real bank link)
+- Responsive UI
 
+## Quickstart
 ```bash
-npm install
+# Requirements: Node 18+ / npm 9+
+npm i
 npm run dev
-```
-
-## Building the app
-
-```bash
+# build & preview
 npm run build
-```
-
-For more information and support, please contact Base44 support at app@base44.com.
+npm run preview
