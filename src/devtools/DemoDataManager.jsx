@@ -1,3 +1,4 @@
+// DEV-ONLY: Seeds demo data and can DELETE existing data. Do not import in prod.
 import { Account, Transaction, Subscription, Budget, UserPrefs } from "@/api/entities";
 import { format, addDays, subDays } from "date-fns";
 

@@ -24,3 +24,10 @@ dist-ssr
 *.sw?
 
 .env*
+
+@'
+# extras
+coverage/
+.storybook/
+*.tsbuildinfo
+'@ | Add-Content .gitignore
